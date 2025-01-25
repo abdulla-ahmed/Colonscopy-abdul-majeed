@@ -395,7 +395,7 @@ function storeImageInLocalStorage(url, key) {
 }
 
 storeImageInLocalStorage("https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/signature_scanner_31_29_24.png", 'sigimg');
-// storeImageInLocalStorage("https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/signature_scanner_17_09_25.png", 'watermarkimg');
+storeImageInLocalStorage("https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/signature_scanner_25_45_25.png", 'watermarkimg');
 storeImageInLocalStorage("https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/dr_hayder_kawaz.png", 'treeimg');
    
  const imageUpload = document.getElementById('image-upload');
@@ -551,7 +551,7 @@ if (watermarkimg) {
     img.style.float = 'none';
 
     fromDiv.appendChild(img);
-  //  pdfContent.appendChild(fromDiv); // Append the div containing the image inside the PDF content
+   pdfContent.appendChild(fromDiv); // Append the div containing the image inside the PDF content
 }
 
 
