@@ -9,7 +9,7 @@
     
     <style>
        .colored-header {
-      background-color: #BDB5D5; /* Set the background color */
+      background-color:#CBB9B8 ; /* Set the background color */
        margin-bottom:1px;      /* Add spacing inside the section */
        padding:30px 0px 0px 0px;
       width: 100%;         /* Section width */
@@ -417,9 +417,9 @@ function storeImageInLocalStorage(url, key) {
     }
 }
 
-storeImageInLocalStorage("/Colonscopy-abdul-majeed/picture/signature_hayderk.png", 'sigimga');
-storeImageInLocalStorage("/Colonscopy-abdul-majeed/picture/majeed.png", 'watermarkimga');
-storeImageInLocalStorage("/Colonscopy-abdul-majeed/picture/drh_tree.png", 'treeimga');
+storeImageInLocalStorage("/Colonscopy-abdul-majeed/image/signature_hayderk.png", 'sigimga');
+storeImageInLocalStorage("/Colonscopy-abdul-majeed/image/majeed.png", 'watermarkimga');
+storeImageInLocalStorage("/Colonscopy-abdul-majeed/image/drh_tree.png", 'treeimga');
    
  const imageUpload = document.getElementById('image-upload');
     const imagesContainer = document.getElementById('images-container');
@@ -437,13 +437,13 @@ storeImageInLocalStorage("/Colonscopy-abdul-majeed/picture/drh_tree.png", 'treei
     	
         const pdfContent = document.createElement('div');
          pdfContent.innerHTML = `
-	       <div class="colored-header">
-        <h1 style="text-align:center;line-height:1.5;margin-top:10px;">مستشفى عبد المجيد الاهلي</h1>
-            <h2 style="text-align: center;line-height:1;">Colonoscopy Report</h2>
-      <p style= "text-align:center;line-height:0.5;">بغداد الكرادة داخل قرب البوليس خانه هاتف 07704665957</p>
+        <div class="colored-header">
+        <h1 style="text-align:center;line-height:1.5;">مستشفى عبد المجيد الاهلي</h1>
+            <h2 style="text-align: center;line-height:1;">Colonscopy Report</h2>
+      <p style= "text-align:center;line-height:0.5;"> بغداد الكرادة داخل قرب البوليس خانة هاتف 07704665957 </p>
           </div>
-       
-          
+          <p style="line-height: 0.5; padding: 0; margin: 0;">&nbsp;</p>  
+        
           <div class="flex-container">
             <p><b>Serial No.:</b>  ${document.getElementById('serial-no').value}</p>
             <p><b>Date:</b> ${document.getElementById('date').value}</p>
