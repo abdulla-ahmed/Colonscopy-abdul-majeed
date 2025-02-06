@@ -1,4 +1,4 @@
-const CACHE_NAME = 'HK-OGD-v1';
+const CACHE_NAME = 'HKAM-Colonoscopy-v1';
 const ASSETS_TO_CACHE = [
   '/Colonscopy-abdul-majeed/',
   '/Colonscopy-abdul-majeed/index.html',
