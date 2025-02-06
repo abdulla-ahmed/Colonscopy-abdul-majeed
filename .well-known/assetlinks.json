@@ -3,6 +3,6 @@
       "target": {
         "namespace": "android_app",
         "package_name": "io.github.abdulla_ahmed.ColonoscopyAM",
-        "sha256_cert_fingerprints": ["E9:5F:CE:75:27:8E:2C:C6:C3:04:60:A6:8B:7A:F8:58:6E:01:E4:EB:45:C9:8C:63:04:C7:02:4D:A6:14:B1:44"]
+        "sha256_cert_fingerprints": ["8F:D7:46:36:16:89:B4:B9:6A:37:E3:0A:05:CA:72:42:7B:76:78:2F:CB:8F:AE:E9:9C:E9:D9:A9:E4:10:5B:49"]
       }
     }]
