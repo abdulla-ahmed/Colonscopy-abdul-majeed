@@ -4,8 +4,8 @@ const ASSETS_TO_CACHE = [
   '/Colonscopy-abdul-majeed/index.html',
   '/Colonscopy-abdul-majeed/app.js',
   '/Colonscopy-abdul-majeed/Medical Info.json', // Animation file
-  '/Colonscopy-abdul-majeed/Images/icon-192x192.png',
-  '/Colonscopy-abdul-majeed/Images/icon-512x512.png'
+  '/Colonscopy-abdul-majeed/images/icon-192x192.png',
+  '/Colonscopy-abdul-majeed/images/icon-512x512.png'
 ];
 
 // Install event: Cache assets
