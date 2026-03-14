@@ -8,12 +8,12 @@
   "icons": [
     {
       "src": "images/icon-192x192.png",
-      "sizes": "192x192",
+      "sizes": "192×192",
       "type": "image/png"
     },
     {
       "src": "images/icon-512x512.png",
-      "sizes": "512x512",
+      "sizes": "512×512",
       "type": "image/png"
     }
   ], "related_applications": [{ "platform": "play", "id": "io.github.abdulla_ahmed.ColonoscopyAM" 
